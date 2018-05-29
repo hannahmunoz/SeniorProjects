@@ -1,17 +1,5 @@
-# SeniorProjects
-a backup of my senior projects files
+# NRDC Android Application
+Senior project in association with Samantha Grant and Matthew Salivar
 
-
-To find the actual code files traverse through SeniorProjects/Freya-master/app/src/main/java/com/example/cil/freya
-In MainActivity.java ctrl+f
-
-GPSAccessPermission to find the function to ask for GPS permission
-
-OnConnect to find out how to get the GPS location     
-
-It looks like we might also need to know how to get mGoogleApiClient
-
-
-In CreateNewDeployment.java ctrl+f 
-
-case (R.id.installion_location) to find how to parse the GPS coordinates from the MainActivity
+# Introduction
+NRDC Android App is an application for the Android mobile platform. It is intended to be used by technicians who are working on the fifteen NRDC-supported remote research sites across Nevada that are gathering varied climate data. These research sites gather data non-stop every minute every day, and the data is streamed to and stored by the Nevada Research Data Center (NRDC). The application is design to enable the technicians to add information and service-related entries about these research sites during their trip to site locations. This in turn will provide a more robust quality assurance record of the infrastructure present at these sites. Our objective is to provide the field technicians with a positive and satisfying experience when servicing these stations, as well as an effective method of creating documentation for their work.
